@@ -13,6 +13,7 @@
 
 #include <iostream>
 #include <iomanip>
+#include <sys/signal.h>
 
 DEFINE_bool(disable_tracing, false, "Disable building superblocks.");
 DEFINE_bool(disable_inline_cache, false, "Disable the inline cache.");
