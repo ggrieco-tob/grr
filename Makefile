@@ -46,7 +46,7 @@ GRANARY_DISABLED_WARNINGS += -Wno-global-constructors
 GRANARY_DISABLED_WARNINGS += -Wno-exit-time-destructors
 GRANARY_DISABLED_WARNINGS += -Wno-disabled-macro-expansion
 GRANARY_DISABLED_WARNINGS += -Wno-date-time
-#GRANARY_DISABLED_WARNINGS += -Wno-reserved-id-macro
+GRANARY_DISABLED_WARNINGS += -Wno-reserved-id-macro
 
 # Arch-specific flags.
 GRANARY_ARCH_FLAGS := -m64 -mtune=generic -fPIC -ffreestanding
